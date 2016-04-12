@@ -125,3 +125,123 @@ nav.navbar-default{
     margin: 0 auto;
 }
 
+.subscribe{
+    height: 200px;
+}
+
+section#footer{
+    background-color: #64706c;
+    max-width:100%;
+    height:9.8%;
+    
+}
+
+.footer-container{
+    margin: 0 auto;
+}
+
+#circle-for-icon{
+    width: 3.1%;
+    height: 1.3%;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+.social-media-icons{
+    display: flex;
+}
+
+.footer-links>ul>li>a{
+    color: #ede9ce;
+    font: 400 24px Lato;
+    text-decoration: none;
+}
+
+ul, li.footer-links { list-style-type: none;}
+
+.copyright{
+    color: #ede9ce;
+    font:24px 'Myriad Pro';
+}
+
+#testimonial{
+    height: 11.2%;
+}
+
+.carousel-inner{
+    min-height: 80%;
+}
+
+.featured-content-area{
+    padding: 40px;
+}
+
+.about-us{
+    padding: 40px;
+}
+
+.carousel-caption h2{
+    margin-bottom: 150px;
+    color: #f9f8f8;
+    font: 400 48px / 60px Lato;
+}
+
+.ministry-writeup p{
+    color: #333333;
+    font: 400 24px / 36px Lato;
+    text-align: justify;
+}
+
+.ministry-writeup{
+    padding-top: 10%;
+}
+
+h3 + p{
+    color: #ede9ce;
+    font: italic 24px Lato;
+}
+
+#dance-students{
+    background: url(images/Mens-Ministry-Banner.png);
+    color: #ede9ce;
+    text-align: center;
+    
+}
+
+#dance-students h4{
+    color: #ede9ce;
+    font: italic 14px Lato;
+}
+
+h4 cite{
+    display: block;
+}
+
+.testimonials > h3{
+    color: #ede9ce;
+    font: italic 24px Lato;
+}
+
+@media only screen and (min-width:500px){
+    .featured-content-men{
+        background-color: red;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .featured-content-men{
+        background-color: red;
+        display: block;
+    }
+}
+
+/**.featured-content-men{
+       background-color: red;
+       border: solid 5px blue;
+       height:750px;     
+}**/
+
+
+
+
